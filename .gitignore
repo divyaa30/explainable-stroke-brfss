@@ -1,0 +1,11 @@
+# Data and generated files are not tracked (BRFSS is public; models are large)
+data/
+models/
+outputs/
+*.XPT
+*.xpt
+*.csv
+*.joblib
+*.zip
+.ipynb_checkpoints/
+__pycache__/
