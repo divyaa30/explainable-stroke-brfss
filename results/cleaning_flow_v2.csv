@@ -1,0 +1,5 @@
+step,rows,columns_total,columns_no_meta,stroke_1,note
+Raw BRFSS 2023 file,433323,350,350,,
+After dropping admin / calculated / redundant / non-clinical columns,433323,220,215,,135 columns dropped; 1 listed but absent
+After removing respondents with unknown stroke answer (7/9/blank),431849,220,215,18350.0,"1,474 rows dropped"
+Final cleaned dataset (no outcome-dependent filtering),431849,216,210,18350.0,5 empty columns dropped; meta_missing_pct added

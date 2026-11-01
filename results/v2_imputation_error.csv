@@ -1,0 +1,5 @@
+method,RMSE,MAE,seconds
+Mean substitution,0.3109,0.2058,0.0103
+Median substitution,0.3733,0.1576,0.0218
+KNN (k = 5),0.313,0.1735,14.7541
+MissForest,0.2804,0.1548,219.2079

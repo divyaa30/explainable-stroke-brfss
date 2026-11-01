@@ -1,0 +1,86 @@
+{
+  "main_model": "B | Stacking",
+  "calibration": "platt",
+  "thresholds": {
+    "A | LogisticRegression": {
+      "youden": 0.03657177924909981,
+      "sens80": 0.03840320008875815
+    },
+    "A | DecisionTree": {
+      "youden": 0.046843642730320434,
+      "sens80": 0.0442978885738376
+    },
+    "A | RandomForest": {
+      "youden": 0.037753027432139354,
+      "sens80": 0.04248179241216563
+    },
+    "A | XGBoost": {
+      "youden": 0.03415655468454424,
+      "sens80": 0.041406082643172804
+    },
+    "A | LightGBM": {
+      "youden": 0.04299767593118698,
+      "sens80": 0.04343059482251411
+    },
+    "A | Stacking": {
+      "youden": 0.03717853235839497,
+      "sens80": 0.038258447875993404
+    },
+    "B | LogisticRegression": {
+      "youden": 0.0370673410326238,
+      "sens80": 0.038192434172538814
+    },
+    "B | DecisionTree": {
+      "youden": 0.04254526644840968,
+      "sens80": 0.04254526644840968
+    },
+    "B | RandomForest": {
+      "youden": 0.03899348577284535,
+      "sens80": 0.041031513797591256
+    },
+    "B | XGBoost": {
+      "youden": 0.0421178101389973,
+      "sens80": 0.04094113738116971
+    },
+    "B | LightGBM": {
+      "youden": 0.03825204697880749,
+      "sens80": 0.04284096051241927
+    },
+    "B | Stacking": {
+      "youden": 0.0366037261679085,
+      "sens80": 0.03828794858732756
+    },
+    "B-all (simple) | LogisticRegression": {
+      "youden": 0.0362291808269758,
+      "sens80": 0.038199217190085774
+    },
+    "B-all (simple) | LightGBM": {
+      "youden": 0.041024199838668986,
+      "sens80": 0.042774802826972595
+    },
+    "B-selected (simple) | LogisticRegression": {
+      "youden": 0.039251654413190576,
+      "sens80": 0.037777201314468926
+    },
+    "B-selected (simple) | LightGBM": {
+      "youden": 0.04933670604981608,
+      "sens80": 0.04239012192497392
+    },
+    "B-all (missforest) | LogisticRegression": {
+      "youden": 0.036326332982555484,
+      "sens80": 0.038393552357383516
+    },
+    "B-all (missforest) | LightGBM": {
+      "youden": 0.045960306185144836,
+      "sens80": 0.04238540365402942
+    },
+    "B-selected (missforest) | LogisticRegression": {
+      "youden": 0.038928646140795546,
+      "sens80": 0.03770235068289353
+    },
+    "B-selected (missforest) | LightGBM": {
+      "youden": 0.044379287776150377,
+      "sens80": 0.041702682015013155
+    }
+  }
+}

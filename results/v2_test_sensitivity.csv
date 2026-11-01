@@ -1,0 +1,13 @@
+model,auc_primary_test,auc_all_test,auc_excluded_only,auc_weighted
+A | LogisticRegression,0.8297,0.8292,0.8059,0.8638
+A | DecisionTree,0.8065,0.8055,0.758,0.8332
+A | RandomForest,0.8311,0.8308,0.8165,0.862
+A | XGBoost,0.8328,0.8324,0.8151,0.8647
+A | LightGBM,0.8336,0.8332,0.8176,0.8661
+A | Stacking,0.834,0.8336,0.8174,0.866
+B | LogisticRegression,0.8121,0.8118,0.7962,0.8452
+B | DecisionTree,0.7929,0.7928,0.791,0.8219
+B | RandomForest,0.8142,0.814,0.806,0.8446
+B | XGBoost,0.8162,0.8159,0.8069,0.8479
+B | LightGBM,0.8173,0.8172,0.8126,0.8492
+B | Stacking,0.8174,0.8172,0.8102,0.8491

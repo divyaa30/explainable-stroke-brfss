@@ -1,0 +1,7 @@
+variant,n_features,val_auc,test_auc,test_auc_low,test_auc_high,test_ap,delta_auc,delta_low,delta_high,p_delong,test_auc_all_respondents
+Reference: B LightGBM (Notebook 03),51,0.8211,0.8173,0.81,0.8246,0.1818,,,,,
+R1 Strict B,47,0.817,0.8141,0.8068,0.8215,0.1784,-0.0032,-0.0049,-0.0014,0.0004,
+R2 No missing flags,51,0.8205,0.8165,0.8092,0.8239,0.1819,-0.0008,-0.0016,-0.0,0.0401,
+R3 Strict B + no flags,47,0.8158,0.8134,0.806,0.8207,0.1781,-0.0039,-0.0058,-0.0021,0.0,
+R4 All respondents,51,0.821,0.8168,0.8094,0.8241,0.1829,-0.0005,-0.0011,0.0,0.0544,0.8167
+"R5 Selected features, own tuning",18,0.8159,0.8122,0.8048,0.8197,0.1745,-0.0051,-0.0067,-0.0034,0.0,

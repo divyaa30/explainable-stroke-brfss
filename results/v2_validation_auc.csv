@@ -1,0 +1,13 @@
+feature_set,model,val_auc,val_ap
+A,LogisticRegression,0.8293,0.1847
+A,DecisionTree,0.8074,0.168
+A,RandomForest,0.834,0.1891
+A,XGBoost,0.8326,0.1922
+A,LightGBM,0.8343,0.1933
+A,Stacking,0.8346,0.1936
+B,LogisticRegression,0.817,0.1718
+B,DecisionTree,0.7922,0.1484
+B,RandomForest,0.8195,0.1761
+B,XGBoost,0.82,0.1782
+B,LightGBM,0.8211,0.1798
+B,Stacking,0.8214,0.1805

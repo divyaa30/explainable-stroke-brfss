@@ -1,0 +1,210 @@
+feature,codebook_name,label,section,type,states_asked,pct_states,pct_missing,pct_missing_stroke,pct_missing_no_str,pct_missing_gap
+AVEDRNK3,AVEDRNK3,Avg alcoholic drinks per day in past 30,Alcohol Consumption,Core,52,100.0,51.5,66.5,50.9,15.6
+DRNK3GE5,DRNK3GE5,Binge Drinking,Alcohol Consumption,Core,52,100.0,51.7,66.6,51.0,15.6
+MAXDRNKS,MAXDRNKS,Most drinks on single occasion past 30 days,Alcohol Consumption,Core,52,100.0,52.5,67.2,51.8,15.4
+alcohol_days_per_month,ALCDAY4,Days in past 30 had alcoholic beverage,Alcohol Consumption,Core,52,100.0,6.9,6.2,6.9,-0.7
+age,_AGE80,Imputed Age value collapsed above 80,Calculated Variables,Core,52,100.0,0.0,0.0,0.0,0.0
+bmi,_BMI5,Computed body mass index,Calculated Variables,Core,52,100.0,9.3,7.3,9.4,-2.1
+CHOLCHK3,CHOLCHK3,How Long since Cholesterol Checked,Cholesterol Awareness,Core,52,100.0,6.1,5.1,6.1,-1.0
+CHOLMED3,CHOLMED3,Currently taking medicine for high cholesterol,Cholesterol Awareness,Core,52,100.0,12.8,8.5,13.0,-4.5
+TOLDHI3,TOLDHI3,Ever Told Cholesterol Is High,Cholesterol Awareness,Core,52,100.0,12.6,8.0,12.9,-4.9
+ADDEPEV3,ADDEPEV3,(Ever told) you had a depressive disorder,Chronic Health Conditions,Core,52,100.0,0.5,0.9,0.5,0.4
+ASTHMA3,ASTHMA3,Ever Told Had Asthma,Chronic Health Conditions,Core,52,100.0,0.3,0.6,0.3,0.3
+ASTHNOW,ASTHNOW,Still Have Asthma,Chronic Health Conditions,Core,52,100.0,85.6,79.4,85.9,-6.5
+CHCCOPD3,CHCCOPD3,Ever told you had C.O.P.D. emphysema or chronic bronchitis?,Chronic Health Conditions,Core,52,100.0,0.4,1.0,0.4,0.6
+CHCKDNY2,CHCKDNY2,Ever told you have kidney disease?,Chronic Health Conditions,Core,52,100.0,0.4,0.8,0.4,0.4
+CHCOCNC1,CHCOCNC1,(Ever told) (you had)  melanoma or any other types of cancer?,Chronic Health Conditions,Core,52,100.0,0.5,0.9,0.5,0.4
+CHCSCNC1,CHCSCNC1,(Ever told) (you had) skin cancer that is not melanoma?,Chronic Health Conditions,Core,52,100.0,0.6,1.3,0.6,0.7
+CVDCRHD4,CVDCRHD4,Ever Diagnosed with Angina or Coronary Heart Disease,Chronic Health Conditions,Core,52,100.0,0.9,3.3,0.8,2.5
+CVDINFR4,CVDINFR4,Ever Diagnosed with Heart Attack,Chronic Health Conditions,Core,52,100.0,0.5,1.6,0.5,1.1
+DIABAGE4,DIABAGE4,Age When First Told You Had Diabetes,Chronic Health Conditions,Core,52,100.0,87.3,71.5,88.0,-16.5
+HAVARTH4,HAVARTH4,Told Had Arthritis,Chronic Health Conditions,Core,52,100.0,0.5,0.7,0.5,0.2
+diabetes_status,DIABETE4,(Ever told) you had diabetes,Chronic Health Conditions,Core,52,100.0,0.2,0.3,0.2,0.1
+CHILDREN,CHILDREN,Number of Children in Household,Demographics,Core,52,100.0,2.1,1.2,2.1,-0.9
+EDUCA,EDUCA,Education Level,Demographics,Core,52,100.0,0.5,0.4,0.5,-0.1
+EMPLOY1,EMPLOY1,Employment Status,Demographics,Core,52,100.0,1.7,1.3,1.8,-0.5
+INCOME3,INCOME3,Income Level,Demographics,Core,52,100.0,19.9,21.6,19.8,1.8
+MARITAL,MARITAL,Marital Status,Demographics,Core,52,100.0,1.0,0.7,1.0,-0.3
+PREGNANT,PREGNANT,Pregnancy Status,Demographics,Core,52,100.0,82.5,94.6,82.0,12.6
+RENTHOM1,RENTHOM1,Own or Rent Home,Demographics,Core,52,100.0,0.9,0.9,0.9,0.0
+VETERAN3,VETERAN3,Are You A Veteran,Demographics,Core,52,100.0,0.6,0.4,0.6,-0.2
+BLIND,BLIND,Blind or Difficulty seeing,Disability,Core,52,100.0,3.6,3.3,3.6,-0.3
+DEAF,DEAF,Are you deaf or do you have serious difficulty hearing?,Disability,Core,52,100.0,3.4,3.0,3.4,-0.4
+DECIDE,DECIDE,Difficulty Concentrating or Remembering,Disability,Core,52,100.0,4.1,3.9,4.2,-0.3
+DIFFALON,DIFFALON,Difficulty Doing Errands Alone,Disability,Core,52,100.0,4.4,4.1,4.5,-0.4
+DIFFDRES,DIFFDRES,Difficulty Dressing or Bathing,Disability,Core,52,100.0,4.1,3.6,4.1,-0.5
+DIFFWALK,DIFFWALK,Difficulty Walking or Climbing Stairs,Disability,Core,52,100.0,4.1,3.9,4.1,-0.2
+EXERANY2,EXERANY2,Exercise in Past 30 Days,Exercise (Physical Activity),Core,52,100.0,0.3,0.5,0.3,0.2
+EXERHMM1,EXERHMM1,"Minutes or Hours Walking, Running, Jogging, or Swimming",Exercise (Physical Activity),Core,52,100.0,27.1,45.3,26.3,19.0
+EXERHMM2,EXERHMM2,"Minutes or Hours Walking, Running, Jogging, or Swimming",Exercise (Physical Activity),Core,52,100.0,48.4,66.3,47.6,18.7
+EXEROFT1,EXEROFT1,"How Many Times Walking, Running, Jogging, or Swimming",Exercise (Physical Activity),Core,52,100.0,27.0,45.0,26.2,18.8
+EXEROFT2,EXEROFT2,"How Many Times Walking, Running, Jogging, or Swimming",Exercise (Physical Activity),Core,52,100.0,48.1,65.8,47.3,18.5
+EXRACT12,EXRACT12,Type of Physical Activity,Exercise (Physical Activity),Core,52,100.0,25.4,42.9,24.6,18.3
+EXRACT22,EXRACT22,Other Type of Physical Activity Giving Most Exercise During Past Month,Exercise (Physical Activity),Core,52,100.0,26.6,44.1,25.8,18.3
+STRENGTH,STRENGTH,How many times did you do physical activities or exercises to STRENGTHEN your muscles?,Exercise (Physical Activity),Core,52,100.0,3.2,4.4,3.2,1.2
+FALL12MN,FALL12MN,Had Fall Past Twelve Months,Falls,Core,52,100.0,33.2,11.2,34.2,-23.0
+FALLINJ5,FALLINJ5,Injured in Fall or Had to see Doctor,Falls,Core,52,100.0,82.3,60.5,83.2,-22.7
+HIVTST7,HIVTST7,Ever tested H.I.V.,HIV/AIDS,Core,52,100.0,11.6,12.0,11.6,0.4
+HIVTSTD3,HIVTSTD3,Month and Year of Last HIV Test,HIV/AIDS,Core,52,100.0,77.9,81.8,77.7,4.1
+CHECKUP1,CHECKUP1,Length of time since last routine checkup,Health Care Access,Core,52,100.0,1.3,1.3,1.3,0.0
+MEDCOST1,MEDCOST1,Could Not Afford To See Doctor,Health Care Access,Core,52,100.0,0.3,0.5,0.3,0.2
+PERSDOC3,PERSDOC3,Have Personal Health Care Provider?,Health Care Access,Core,52,100.0,1.0,0.9,1.0,-0.1
+PRIMINS1,PRIMINS1,What is Current Primary Source of Health Insurance?,Health Care Access,Core,52,100.0,4.3,4.6,4.3,0.3
+GENHLTH,GENHLTH,General Health,Health Status,Core,52,100.0,0.3,0.6,0.3,0.3
+MENTHLTH,MENTHLTH,Number of Days Mental Health Not Good,Healthy Days,Core,52,100.0,1.8,3.3,1.8,1.5
+PHYSHLTH,PHYSHLTH,Number of Days Physical Health Not Good,Healthy Days,Core,52,100.0,2.5,4.9,2.4,2.5
+POORHLTH,POORHLTH,Poor Physical or Mental Health,Healthy Days,Core,52,100.0,43.1,32.7,43.6,-10.9
+BPMEDS1,BPMEDS1,Currently Taking Prescription Blood Pressure Medication,Hypertension Awareness,Core,52,100.0,59.5,28.6,60.8,-32.2
+hypertension,BPHIGH6,Ever Told Blood Pressure High,Hypertension Awareness,Core,52,100.0,0.4,0.4,0.4,0.0
+FLSHTMY3,FLSHTMY3,When did you receive your most recent seasonal flu shot/spray?,Immunization,Core,52,100.0,58.6,54.9,58.8,-3.9
+FLUSHOT7,FLUSHOT7,Adult flu shot/spray past 12 mos,Immunization,Core,52,100.0,7.2,6.6,7.2,-0.6
+PNEUVAC4,PNEUVAC4,Pneumonia shot ever,Immunization,Core,52,100.0,14.5,10.0,14.7,-4.7
+SHINGLE2,SHINGLE2,Have you ever had the shingles or zoster vaccine?,Immunization,Core,52,100.0,41.6,16.9,42.7,-25.8
+COVIDACT,COVIDACT,Do long-term symptoms reduce ability to carry out activities?,Long-term COVID Effects,Core,52,100.0,93.8,92.4,93.9,-1.5
+COVIDPO1,COVIDPO1,Have you ever tested positive for COVID-19?,Long-term COVID Effects,Core,52,100.0,7.8,7.1,7.9,-0.8
+COVIDSM1,COVIDSM1,Do you currently have Covid-19 symptoms?,Long-term COVID Effects,Core,52,100.0,54.3,63.0,53.9,9.1
+gender,SEXVAR,Sex of Respondent,Respondent Sex,Core,52,100.0,0.0,0.0,0.0,0.0
+DRNKDRI2,DRNKDRI2,Did you drive after having too much to drink in the past 30 days?,Seatbelt Use and Drinking and Driving,Core,52,100.0,51.1,65.9,50.4,15.5
+SEATBELT,SEATBELT,How often use seatbelts in car?,Seatbelt Use and Drinking and Driving,Core,52,100.0,7.2,6.7,7.3,-0.6
+ECIGNOW2,ECIGNOW2,"Do you now use e-cigarettes, or vaping products every day, some days, or not at all?",Tobacco Use,Core,52,100.0,5.3,4.9,5.4,-0.5
+SMOKDAY2,SMOKDAY2,Frequency of Days Now Smoking,Tobacco Use,Core,52,100.0,63.5,48.6,64.2,-15.6
+SMOKE100,SMOKE100,Smoked at Least 100 Cigarettes,Tobacco Use,Core,52,100.0,5.2,4.6,5.2,-0.6
+USENOW3,USENOW3,Use of Smokeless Tobacco Products,Tobacco Use,Core,52,100.0,4.9,4.2,4.9,-0.7
+ACEADNED,ACEADNED,Did an adult make sure basic needs were met,Adverse Childhood Experiences,Module,10,19.2,87.4,85.9,87.5,-1.6
+ACEADSAF,ACEADSAF,Did an adult make you feel safe and protected,Adverse Childhood Experiences,Module,10,19.2,87.4,86.0,87.5,-1.5
+ACEDEPRS,ACEDEPRS,"Live With Anyone Depressed, Mentally Ill, Or Suicidal?",Adverse Childhood Experiences,Module,10,19.2,87.4,85.8,87.4,-1.6
+ACEDIVRC,ACEDIVRC,Were Your Parents Divorced/Seperated?,Adverse Childhood Experiences,Module,10,19.2,87.4,85.9,87.4,-1.5
+ACEDRINK,ACEDRINK,Live With a Problem Drinker/Alcoholic?,Adverse Childhood Experiences,Module,10,19.2,87.3,85.7,87.3,-1.6
+ACEDRUGS,ACEDRUGS,Live With Anyone Who Used Illegal Drugs or Abused Prescriptions?,Adverse Childhood Experiences,Module,10,19.2,87.3,85.8,87.4,-1.6
+ACEHURT1,ACEHURT1,How Often Did A Parent Physically Hurt You In Any Way?,Adverse Childhood Experiences,Module,10,19.2,87.5,86.0,87.5,-1.5
+ACEHVSEX,ACEHVSEX,How Often Did Anyone Ever Force You to Have Sex?,Adverse Childhood Experiences,Module,10,19.2,87.5,86.1,87.6,-1.5
+ACEPRISN,ACEPRISN,Live With Anyone Who Served TIme in Prison or Jail?,Adverse Childhood Experiences,Module,10,19.2,87.3,85.7,87.3,-1.6
+ACEPUNCH,ACEPUNCH,How Often Did Your Parents Beat Each Other Up?,Adverse Childhood Experiences,Module,10,19.2,87.5,86.0,87.6,-1.6
+ACESWEAR,ACESWEAR,How Often Did A Parent Swear At You?,Adverse Childhood Experiences,Module,10,19.2,87.5,86.1,87.6,-1.5
+ACETOUCH,ACETOUCH,How Often Did Anyone Ever Touch You Sexually?,Adverse Childhood Experiences,Module,10,19.2,87.5,86.2,87.6,-1.4
+ACETTHEM,ACETTHEM,How Often Did Anyone Make You Touch Them Sexually?,Adverse Childhood Experiences,Module,10,19.2,87.5,86.1,87.6,-1.5
+ARTHDIS2,ARTHDIS2,Does Arthritis Affect Whether You Work,Arthritis,Module,7,13.5,94.8,91.4,94.9,-3.5
+ARTHEDU,ARTHEDU,Ever Taken Class in Managing Arthritis or Joint Symptoms,Arthritis,Module,7,13.5,94.7,91.2,94.8,-3.6
+ARTHEXER,ARTHEXER,Dr. Suggest Use of Physical Activity or Exercise for Arthritis or Joint Symptoms,Arthritis,Module,7,13.5,94.7,91.3,94.9,-3.6
+JOINPAI2,JOINPAI2,How Bad Was Joint Pain,Arthritis,Module,7,13.5,94.8,91.5,94.9,-3.4
+LMTJOIN3,LMTJOIN3,Limited Because of Joint Symptoms,Arthritis,Module,7,13.5,94.7,91.3,94.8,-3.5
+ASPIRIN,ASPIRIN,How often do you take an aspirin,Aspirin for CVD Prevention,Module,4,7.7,94.1,92.8,94.1,-1.3
+CERVSCRN,CERVSCRN,Have you ever had a cervical cancer screening test?,Breast and Cervical Cancer Screening,Module,1,1.9,99.8,99.7,99.8,-0.1
+CRVCLCNC,CRVCLCNC,Time since last cervical cancer screening test,Breast and Cervical Cancer Screening,Module,1,1.9,99.9,99.9,99.9,0.0
+CRVCLHPV,CRVCLHPV,Have an H.P.V. test and recent cervical cancer screening,Breast and Cervical Cancer Screening,Module,1,1.9,99.9,99.9,99.9,0.0
+CRVCLPAP,CRVCLPAP,Have a PAP test and recent cervical cancer screening,Breast and Cervical Cancer Screening,Module,1,1.9,99.9,99.9,99.9,0.0
+HADHYST2,HADHYST2,Had Hysterectomy,Breast and Cervical Cancer Screening,Module,1,1.9,99.8,99.7,99.8,-0.1
+HADMAM,HADMAM,Have You Ever Had a Mammogram,Breast and Cervical Cancer Screening,Module,1,1.9,99.7,99.7,99.8,-0.1
+HOWLONG,HOWLONG,How Long since Last Mammogram,Breast and Cervical Cancer Screening,Module,1,1.9,99.8,99.7,99.8,-0.1
+COVACGE1,COVACGE1,Will you get COVID-19 vaccination?,COVID Vaccination,Module,21,40.4,95.8,96.1,95.8,0.3
+COVIDNU2,COVIDNU2,Number of COVID-19 vaccinations received,COVID Vaccination,Module,21,40.4,74.8,74.4,74.8,-0.4
+COVIDVA1,COVIDVA1,Received at least one COVID-19 vaccination,COVID Vaccination,Module,21,40.4,69.7,69.5,69.7,-0.2
+CSRVCLIN,CSRVCLIN,Participate In Clinical Trial As Part Of Cancer Treatment?,Cancer Survivorship: Course of Treatment,Module,4,7.7,99.6,99.2,99.6,-0.4
+CSRVDEIN,CSRVDEIN,Ever Denied Insurance Coverage Because Of Your Cancer?,Cancer Survivorship: Course of Treatment,Module,4,7.7,99.6,99.2,99.6,-0.4
+CSRVDOC1,CSRVDOC1,What Type of Doctor Provides Majority of Your Care,Cancer Survivorship: Course of Treatment,Module,4,7.7,99.6,99.3,99.6,-0.3
+CSRVINSR,CSRVINSR,Did Health Insurance Pay For All Of Your Cancer Treatment,Cancer Survivorship: Course of Treatment,Module,4,7.7,99.6,99.2,99.6,-0.4
+CSRVINST,CSRVINST,Instructions Written or Printed,Cancer Survivorship: Course of Treatment,Module,4,7.7,99.7,99.5,99.7,-0.2
+CSRVRTRN,CSRVRTRN,Ever Receive Instructions From A Doctor For Follow-Up Check-Ups,Cancer Survivorship: Course of Treatment,Module,4,7.7,99.6,99.3,99.6,-0.3
+CSRVSUM,CSRVSUM,Did You Receive a Summary of Cancer Treatments Received,Cancer Survivorship: Course of Treatment,Module,4,7.7,99.6,99.3,99.6,-0.3
+CSRVTRT3,CSRVTRT3,Currently Receiving Treatment for Cancer,Cancer Survivorship: Course of Treatment,Module,4,7.7,99.2,98.5,99.2,-0.7
+CSRVCTL2,CSRVCTL2,Is Pain Under Control?,Cancer Survivorship: Pain Management,Module,2,3.8,100.0,99.9,100.0,-0.1
+CSRVPAIN,CSRVPAIN,Currently Have Physical Pain From Cancer Or Treatment?,Cancer Survivorship: Pain Management,Module,2,3.8,99.4,99.0,99.4,-0.4
+CNCRAGE,CNCRAGE,Age Told Had Cancer,Cancer Survivorship: Type of Cancer,Module,14,26.9,96.4,93.9,96.5,-2.6
+CNCRDIFF,CNCRDIFF,How Many Types of Cancer?,Cancer Survivorship: Type of Cancer,Module,14,26.9,96.2,93.3,96.3,-3.0
+CNCRTYP2,CNCRTYP2,Type of Cancer,Cancer Survivorship: Type of Cancer,Module,14,26.9,96.3,93.6,96.4,-2.8
+CAREGIV1,CAREGIV1,Provided regular care for family or friend,Caregiver,Module,8,15.4,88.3,86.8,88.4,-1.6
+CRGVALZD,CRGVALZD,Does Person Being Cared For Have Alzheimer's Disease?,Caregiver,Module,8,15.4,97.8,97.4,97.8,-0.4
+CRGVEXPT,CRGVEXPT,Do you expect to have a relative you will need to provide care for?,Caregiver,Module,8,15.4,91.6,90.7,91.6,-0.9
+CRGVHOU1,CRGVHOU1,Managed household tasks,Caregiver,Module,8,15.4,97.4,97.0,97.4,-0.4
+CRGVHRS1,CRGVHRS1,How Many Hours Do You Provide Care For Person?,Caregiver,Module,8,15.4,97.6,97.3,97.6,-0.3
+CRGVLNG1,CRGVLNG1,How Long Provided Care For Person.,Caregiver,Module,8,15.4,97.4,97.0,97.5,-0.5
+CRGVPER1,CRGVPER1,Managed personal care,Caregiver,Module,8,15.4,97.4,97.0,97.4,-0.4
+CRGVPRB3,CRGVPRB3,"What Is The Major Health Problem, Illness, Disability For Care For Person?",Caregiver,Module,8,15.4,97.5,97.1,97.5,-0.4
+CRGVREL4,CRGVREL4,Relationship Of Person To Whom You Are Giving Care?,Caregiver,Module,8,15.4,97.4,96.9,97.4,-0.5
+CDDISCU1,CDDISCU1,Have you discussed your difficulties with thinking with a health care provider?,Cognitive Decline,Module,28,53.8,94.9,86.9,95.2,-8.3
+CDHOUS1,CDHOUS1,Given up day-to-day chores due to difficulties with thinking or memory,Cognitive Decline,Module,28,53.8,94.9,86.9,95.2,-8.3
+CDSOCIA1,CDSOCIA1,Does difficulties with thinking or memory interfere with work or social activities,Cognitive Decline,Module,28,53.8,94.9,87.1,95.3,-8.2
+CDWORRY,CDWORRY,Are you worried about these difficulties with thinking or memory?,Cognitive Decline,Module,28,53.8,94.9,86.9,95.2,-8.3
+CIMEMLO1,CIMEMLO1,Have you experienced difficulties with thinking or memory that is happening more often or is getting worse?,Cognitive Decline,Module,28,53.8,69.1,57.9,69.6,-11.7
+BLDSTFIT,BLDSTFIT,Was test part of Cologuard test?,Colorectal Cancer Screening,Module,3,5.8,99.9,99.8,99.9,-0.1
+COLNCNCR,COLNCNCR,Ever had any other kind of test for colorectal cancer,Colorectal Cancer Screening,Module,3,5.8,97.6,97.3,97.6,-0.3
+COLNSIGM,COLNSIGM,"Ever had a colonoscopy, sigmoidoscopy, or both",Colorectal Cancer Screening,Module,3,5.8,98.3,98.0,98.3,-0.3
+COLNTES1,COLNTES1,How long since you had colonoscopy,Colorectal Cancer Screening,Module,3,5.8,98.3,98.1,98.3,-0.2
+HADSIGM4,HADSIGM4,Ever Had Sigmoidoscopy/Colonoscopy,Colorectal Cancer Screening,Module,3,5.8,97.6,97.2,97.6,-0.4
+LASTSIG4,LASTSIG4,Time Since Last Sigmoidoscopy/Colonoscopy,Colorectal Cancer Screening,Module,3,5.8,100.0,100.0,100.0,0.0
+SDNATES1,SDNATES1,How long since you had stool DNA,Colorectal Cancer Screening,Module,3,5.8,99.9,99.8,99.9,-0.1
+SIGMTES1,SIGMTES1,How long since you had sigmoidoscopy,Colorectal Cancer Screening,Module,3,5.8,99.8,99.7,99.8,-0.1
+SMALSTOL,SMALSTOL,Ever had stool test?,Colorectal Cancer Screening,Module,3,5.8,99.4,99.2,99.4,-0.2
+STOLTEST,STOLTEST,How long since you had stool test?,Colorectal Cancer Screening,Module,3,5.8,99.5,99.4,99.5,-0.1
+STOOLDN2,STOOLDN2,Ever had stool DNA test?,Colorectal Cancer Screening,Module,3,5.8,99.4,99.2,99.4,-0.2
+VCLNTES2,VCLNTES2,How long since you had  virtual colonoscopy,Colorectal Cancer Screening,Module,3,5.8,99.9,99.9,99.9,0.0
+VIRCOLO1,VIRCOLO1,Ever had a virtual colonoscopy,Colorectal Cancer Screening,Module,3,5.8,99.4,99.2,99.4,-0.2
+CHKHEMO3,CHKHEMO3,Times Checked for Glycosylated Hemoglobin,Diabetes,Module,24,46.2,94.7,88.3,95.0,-6.7
+DIABEDU1,DIABEDU1,When was the last time you took a course or class in how to manage your diabetes?,Diabetes,Module,24,46.2,94.7,87.9,95.0,-7.1
+DIABEYE1,DIABEYE1,When was the last time a they took a photo of the back of your eye?,Diabetes,Module,24,46.2,95.1,88.7,95.4,-6.7
+DIABTYPE,DIABTYPE,What type of diabetes do you have?,Diabetes,Module,24,46.2,94.9,88.4,95.2,-6.8
+EYEEXAM1,EYEEXAM1,Last Eye Exam Where Pupils Were Dilated,Diabetes,Module,24,46.2,94.5,87.6,94.9,-7.3
+FEETSORE,FEETSORE,Ever Had Feet Sores or Irritations Lasting More Than Four Weeks,Diabetes,Module,24,46.2,94.4,87.3,94.8,-7.5
+INSULIN1,INSULIN1,Now Taking Insulin,Diabetes,Module,24,46.2,94.4,87.2,94.8,-7.6
+FIREARM5,FIREARM5,Any Firearms in Home,Firearm Safety,Module,13,25.0,82.7,81.1,82.8,-1.7
+GUNLOAD,GUNLOAD,Any Firearms Loaded,Firearm Safety,Module,13,25.0,93.2,92.8,93.3,-0.5
+LOADULK2,LOADULK2,Any Loaded Firearms Also Unlocked,Firearm Safety,Module,13,25.0,97.7,97.2,97.7,-0.5
+HPVADSHT,HPVADSHT,How many HPV shots did you receive?,HPV Vaccination,Module,5,9.6,99.6,99.9,99.6,0.3
+HPVADVC4,HPVADVC4,Have you ever had an H.P.V. vaccination?,HPV Vaccination,Module,5,9.6,98.2,99.6,98.1,1.5
+FIRSTAID,FIRSTAID,First Aid for Heart Attack and Stroke,Heart Attack and Stroke,Module,3,5.8,97.6,97.1,97.7,-0.6
+HASYMP1,HASYMP1,Heart Attack Symptoms - Jaw/Back/Neck Pain,Heart Attack and Stroke,Module,3,5.8,97.9,97.4,97.9,-0.5
+HASYMP2,HASYMP2,Heart Attack Symptoms - Weak/Light-headed/Faint,Heart Attack and Stroke,Module,3,5.8,97.9,97.4,97.9,-0.5
+HASYMP3,HASYMP3,Heart Attack Symptoms - Chest Pain/Discomfort,Heart Attack and Stroke,Module,3,5.8,97.6,97.1,97.7,-0.6
+HASYMP4,HASYMP4,Heart Attack Symptoms - Vision Problems,Heart Attack and Stroke,Module,3,5.8,98.2,97.8,98.2,-0.4
+HASYMP5,HASYMP5,Heart Attack Symptoms - Pain or Discomfort in Arms/Shoulder,Heart Attack and Stroke,Module,3,5.8,97.7,97.2,97.7,-0.5
+HASYMP6,HASYMP6,Heart Attack Symptoms - Shortness of Breath,Heart Attack and Stroke,Module,3,5.8,97.7,97.3,97.8,-0.5
+STRSYMP1,STRSYMP1,Stroke Symptoms - Confusion/Trouble speaking,Heart Attack and Stroke,Module,3,5.8,97.7,97.2,97.7,-0.5
+STRSYMP2,STRSYMP2,Stroke Symptoms - Numbness or Weakness of Face/Arm/Leg,Heart Attack and Stroke,Module,3,5.8,97.7,97.2,97.7,-0.5
+STRSYMP3,STRSYMP3,Stroke Symptoms - Vision Problems,Heart Attack and Stroke,Module,3,5.8,98.0,97.5,98.1,-0.6
+STRSYMP4,STRSYMP4,Stroke Symptoms - Chest Pain/Discomfort,Heart Attack and Stroke,Module,3,5.8,98.1,97.6,98.1,-0.5
+STRSYMP5,STRSYMP5,Stroke Symptoms - Trouble Walking/Dizziness/Loss of Balance,Heart Attack and Stroke,Module,3,5.8,97.8,97.3,97.8,-0.5
+STRSYMP6,STRSYMP6,Stroke Symptoms - Severe Headache,Heart Attack and Stroke,Module,3,5.8,98.0,97.5,98.1,-0.6
+LCSCTSC1,LCSCTSC1,Did you have a CT or CAT scan?,Lung Cancer Screening,Module,3,5.8,94.7,95.0,94.6,0.4
+LCSCTWHN,LCSCTWHN,When did you have your most recent CT or CAT scan?,Lung Cancer Screening,Module,3,5.8,99.6,99.2,99.6,-0.4
+LCSFIRST,LCSFIRST,How old when you first started smoking?,Lung Cancer Screening,Module,3,5.8,98.1,97.4,98.1,-0.7
+LCSLAST,LCSLAST,How old when you last smoked?,Lung Cancer Screening,Module,3,5.8,98.5,98.1,98.5,-0.4
+LCSNUMCG,LCSNUMCG,"On average, how many cigarettes do you smoke each day?",Lung Cancer Screening,Module,3,5.8,98.2,97.5,98.2,-0.7
+LCSSCNCR,LCSSCNCR,Were any CT or CAT scans done to check for lung cancer?,Lung Cancer Screening,Module,3,5.8,97.8,96.5,97.8,-1.3
+MARIJAN1,MARIJAN1,"During the past 30 days, on how many days did you use marijuana or hashish?",Marijuana Use,Module,16,30.8,79.7,79.2,79.7,-0.5
+MARJDAB,MARJDAB,Did you dab marijuana or cannabis?,Marijuana Use,Module,16,30.8,97.4,97.7,97.4,0.3
+MARJEAT,MARJEAT,Did you eat marijuana or cannabis?,Marijuana Use,Module,16,30.8,97.4,97.7,97.3,0.4
+MARJOTHR,MARJOTHR,Did you use marijuana or cannabis some other way?,Marijuana Use,Module,16,30.8,97.4,97.7,97.4,0.3
+MARJSMOK,MARJSMOK,Did you smoke marijuana or cannabis?,Marijuana Use,Module,16,30.8,97.4,97.7,97.3,0.4
+MARJVAPE,MARJVAPE,Did you vape marijuana or cannabis?,Marijuana Use,Module,16,30.8,97.4,97.7,97.4,0.3
+HEATTBCO,HEATTBCO,Have you heard of heated tobacco products?,Other Tobacco Use,Module,35,67.3,45.5,43.3,45.6,-2.3
+MENTCIGS,MENTCIGS,Do you usually smoke menthol cigarettes?,Other Tobacco Use,Module,35,67.3,94.0,90.2,94.2,-4.0
+MENTECIG,MENTECIG,Do you usually use menthol e-cigarettes?,Other Tobacco Use,Module,35,67.3,97.2,98.0,97.2,0.8
+IMFVPLA4,IMFVPLA4,Where did you get your last flu shot/vaccine?,Place of Flu Vaccination,Module,1,1.9,99.1,99.2,99.1,0.1
+PDIABTS1,PDIABTS1,When was your last blood test for high blood sugar?,Pre-Diabetes,Module,27,51.9,64.3,71.3,64.0,7.3
+PREDIAB2,PREDIAB2,Ever been told by a doctor or other health professional that you have pre-diabetes or borderline diabetes?,Pre-Diabetes,Module,27,51.9,61.8,69.7,61.5,8.2
+PCPSARS2,PCPSARS2,What was the MAIN reason you had this PSA test?,Prostate Cancer Screening,Module,12,23.1,96.3,94.9,96.4,-1.5
+PCSTALK2,PCSTALK2,Did you talk about the advantages or disadvantages of P.S.A. test,Prostate Cancer Screening,Module,12,23.1,94.1,92.1,94.2,-2.1
+PSASUGS1,PSASUGS1,Who first suggested this P.S.A. test?,Prostate Cancer Screening,Module,12,23.1,96.3,94.9,96.4,-1.5
+PSATEST1,PSATEST1,Ever Had PSA Test,Prostate Cancer Screening,Module,12,23.1,93.7,91.7,93.8,-2.1
+PSATIME1,PSATIME1,Time Since Most Recent PSA Test,Prostate Cancer Screening,Module,12,23.1,96.4,95.2,96.4,-1.2
+RRATWRK2,RRATWRK2,How do you feel you were treated at work compared to people of other races in past 12 months?,Reactions to Race,Module,23,44.2,84.7,94.1,84.2,9.9
+RRCLASS3,RRCLASS3,How do other people usually classify you in this country?,Reactions to Race,Module,23,44.2,67.9,65.5,68.0,-2.5
+RRCOGNT2,RRCOGNT2,How often do you think about your race?,Reactions to Race,Module,23,44.2,68.3,66.0,68.4,-2.4
+RRHCARE4,RRHCARE4,"When seeking health care past 12 months, was experience worse, same, better than people of other races?",Reactions to Race,Module,23,44.2,71.5,69.9,71.6,-1.7
+RRPHYSM2,RRPHYSM2,Times past 30 days felt physical symptoms because of treatment due to your race,Reactions to Race,Module,23,44.2,67.9,65.7,68.0,-2.3
+RRTREAT,RRTREAT,"Were you treated worse than, the same, or better than people of other races?",Reactions to Race,Module,23,44.2,70.5,69.3,70.5,-1.2
+SOFEMALE,SOFEMALE,Sexual orientation,Sexual Orientation,Module,37,71.2,66.0,66.2,66.0,0.2
+SOMALE,SOMALE,Sexual orientation,Sexual Orientation,Module,37,71.2,69.7,69.6,69.7,-0.1
+EMTSUPRT,EMTSUPRT,How often get emotional support needed,Social Determinants,Module,35,67.3,48.5,47.3,48.6,-1.3
+FOODSTMP,FOODSTMP,During the past 12 months have you received food stamps,Social Determinants,Module,35,67.3,48.1,46.7,48.2,-1.5
+LSATISFY,LSATISFY,Satisfaction with life,Social Determinants,Module,35,67.3,48.2,47.2,48.3,-1.1
+SDHBILLS,SDHBILLS,Were you not able to pay your bills?,Social Determinants,Module,35,67.3,48.3,46.9,48.4,-1.5
+SDHEMPLY,SDHEMPLY,Have you lost employment or had hours reduced?,Social Determinants,Module,35,67.3,48.3,47.0,48.4,-1.4
+SDHFOOD1,SDHFOOD1,"How often did the food that you bought not last, and you didn't have money to get more?",Social Determinants,Module,35,67.3,48.3,46.9,48.4,-1.5
+SDHSTRE1,SDHSTRE1,How often have you felt this kind of stress?,Social Determinants,Module,35,67.3,48.7,47.3,48.8,-1.5
+SDHTRNSP,SDHTRNSP,"Has a lack of reliable transportation kept you from appointments, meetings, work, or getting things needed",Social Determinants,Module,35,67.3,48.4,47.0,48.5,-1.5
+SDHUTILS,SDHUTILS,Were you not able to pay utility bills or threatened to lose service?,Social Determinants,Module,35,67.3,48.3,46.9,48.4,-1.5
+SDLONELY,SDLONELY,How often do you feel lonely?,Social Determinants,Module,35,67.3,48.2,46.8,48.2,-1.4
+TETANUS1,TETANUS1,Received Tetanus Shot Since 2005?,Tetanus Diphtheria (Tdap) (Adults),Module,2,3.8,97.3,97.3,97.3,0.0
+LASTSMK2,LASTSMK2,Interval Since Last Smoked,Tobacco Cessation,Module,26,50.0,88.4,84.4,88.5,-4.1
+STOPSMK2,STOPSMK2,Stopped Smoking in past 12 months,Tobacco Cessation,Module,26,50.0,95.2,92.3,95.4,-3.1

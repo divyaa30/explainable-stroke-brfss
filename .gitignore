@@ -9,3 +9,7 @@ outputs/
 *.zip
 .ipynb_checkpoints/
 __pycache__/
+
+# Final result tables are tracked
+!results/
+!results/**

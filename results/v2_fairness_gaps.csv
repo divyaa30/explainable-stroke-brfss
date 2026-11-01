@@ -1,0 +1,4 @@
+attribute,auc_range,o_e_min,o_e_max,sensitivity_gap,fpr_gap
+Age group,0.1631,0.9933,1.1359,0.624,0.8791
+Sex,0.001,0.9823,1.0456,0.0315,0.0292
+Race/ethnicity,0.0728,0.9655,1.2217,0.1834,0.1514

@@ -1,0 +1,27 @@
+{
+  "base_feature_set": "B",
+  "k": 20,
+  "vote_threshold": 3,
+  "selection_n": 50000,
+  "n_candidates": 51,
+  "features_S": [
+    "hypertension",
+    "CVDINFR4",
+    "age",
+    "CVDCRHD4",
+    "PRIMINS1",
+    "TOLDHI3",
+    "INCOME3",
+    "diabetes_status",
+    "BLIND",
+    "AVEDRNK3",
+    "SMOKE100",
+    "HAVARTH4",
+    "MENTHLTH",
+    "PERSDOC3",
+    "EXERANY2",
+    "CHCCOPD3",
+    "alcohol_days_per_month",
+    "PNEUVAC4"
+  ]
+}

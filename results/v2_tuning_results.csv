@@ -1,0 +1,11 @@
+key,feature_set,model,cv_auc,cv_auc_sd,cv_ap,minutes
+primary_B_LogisticRegression,B,LogisticRegression,0.8126,0.0021,0.1736,31.6
+primary_B_DecisionTree,B,DecisionTree,0.7793,0.0058,0.1452,1.1
+primary_B_RandomForest,B,RandomForest,0.8149,0.0025,0.1757,14.7
+primary_B_XGBoost,B,XGBoost,0.8165,0.0029,0.1827,8.7
+primary_B_LightGBM,B,LightGBM,0.8171,0.0029,0.1791,5.8
+primary_A_LogisticRegression,A,LogisticRegression,0.8284,0.0032,0.1879,36.7
+primary_A_DecisionTree,A,DecisionTree,0.8038,0.003,0.162,1.7
+primary_A_RandomForest,A,RandomForest,0.8295,0.0037,0.1867,18.6
+primary_A_XGBoost,A,XGBoost,0.8318,0.004,0.1957,7.9
+primary_A_LightGBM,A,LightGBM,0.8326,0.0044,0.1943,5.8

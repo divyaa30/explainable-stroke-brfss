@@ -1,0 +1,6 @@
+measure,value
+LIME local R² (median),0.528
+LIME local R² (IQR),0.342–0.561
+|model prob − LIME prob| (median),0.103
+Top-5 overlap LIME vs SHAP (mean),0.40
+Top-5 overlap LIME seed 1 vs seed 2 (mean),0.85

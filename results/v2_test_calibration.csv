@@ -1,0 +1,21 @@
+model,brier_raw,brier_calibrated,mean_predicted_raw,mean_predicted_calibrated,observed_rate,calibration_slope
+A | LogisticRegression,0.1688,0.0373,0.3453,0.042,0.0426,1.0151
+A | DecisionTree,0.1801,0.0375,0.3585,0.0419,0.0426,1.0118
+A | RandomForest,0.0856,0.0371,0.2069,0.0419,0.0426,0.999
+A | XGBoost,0.1687,0.037,0.3408,0.042,0.0426,1.0108
+A | LightGBM,0.1695,0.037,0.3399,0.0419,0.0426,1.0048
+A | Stacking,0.0371,0.0371,0.0423,0.0419,0.0426,1.0017
+B | LogisticRegression,0.1771,0.0377,0.3592,0.0421,0.0426,1.0015
+B | DecisionTree,0.187,0.0381,0.364,0.0419,0.0426,1.0352
+B | RandomForest,0.0901,0.0376,0.2182,0.042,0.0426,0.9848
+B | XGBoost,0.176,0.0375,0.3558,0.0421,0.0426,0.9974
+B | LightGBM,0.1771,0.0375,0.3541,0.0421,0.0426,0.9922
+B | Stacking,0.0376,0.0376,0.0425,0.0421,0.0426,0.9893
+B-all (simple) | LogisticRegression,0.1769,0.0377,0.3581,0.0421,0.0426,1.0007
+B-all (simple) | LightGBM,0.1772,0.0376,0.354,0.0421,0.0426,0.9919
+B-selected (simple) | LogisticRegression,0.1796,0.038,0.3641,0.0421,0.0426,0.9995
+B-selected (simple) | LightGBM,0.1802,0.0377,0.3573,0.0421,0.0426,0.992
+B-all (missforest) | LogisticRegression,0.1769,0.0377,0.3582,0.0421,0.0426,1.0026
+B-all (missforest) | LightGBM,0.1772,0.0375,0.3538,0.0421,0.0426,0.9958
+B-selected (missforest) | LogisticRegression,0.1795,0.038,0.3641,0.0421,0.0426,1.0024
+B-selected (missforest) | LightGBM,0.1802,0.0377,0.3574,0.0421,0.0426,0.9944

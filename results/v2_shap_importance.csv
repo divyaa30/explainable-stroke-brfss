@@ -1,0 +1,52 @@
+feature,mean_abs_shap,rank,share_pct,direction,label
+age,0.5981,1,21.9636,higher value -> higher risk,age: Imputed Age value collapsed above 80
+hypertension,0.3155,2,11.5854,higher value -> higher risk,hypertension: Ever Told Blood Pressure High
+PRIMINS1,0.1546,3,5.6786,categorical,PRIMINS1: What is Current Primary Source of Health
+CVDINFR4,0.1342,4,4.9279,higher value -> higher risk,CVDINFR4: Ever Diagnosed with Heart Attack
+HAVARTH4,0.1163,5,4.2694,higher value -> higher risk,HAVARTH4: Told Had Arthritis
+INCOME3,0.0986,6,3.6205,higher value -> lower risk,INCOME3: Income Level
+TOLDHI3,0.0873,7,3.2066,higher value -> higher risk,TOLDHI3: Ever Told Cholesterol Is High
+diabetes_status,0.0807,8,2.9622,higher value -> higher risk,diabetes_status: (Ever told) you had diabetes
+exercise_min_per_month,0.0787,9,2.8903,higher value -> lower risk,exercise_min_per_month
+MENTHLTH,0.0734,10,2.697,higher value -> higher risk,MENTHLTH: Number of Days Mental Health Not Good
+ADDEPEV3,0.0729,11,2.6784,higher value -> higher risk,ADDEPEV3: (Ever told) you had a depressive disorde
+PERSDOC3,0.0611,12,2.2438,categorical,PERSDOC3: Have Personal Health Care Provider?
+CVDCRHD4,0.0603,13,2.2149,higher value -> higher risk,CVDCRHD4: Ever Diagnosed with Angina or Coronary H
+BLIND,0.0573,14,2.1046,higher value -> higher risk,BLIND: Blind or Difficulty seeing
+EDUCA,0.055,15,2.0186,higher value -> lower risk,EDUCA: Education Level
+SMOKE100,0.0536,16,1.9676,higher value -> higher risk,SMOKE100: Smoked at Least 100 Cigarettes
+ASTHMA3,0.0516,17,1.8961,higher value -> higher risk,ASTHMA3: Ever Told Had Asthma
+CHOLCHK3,0.0457,18,1.6774,higher value -> lower risk,CHOLCHK3: How Long since Cholesterol Checked
+MAXDRNKS,0.0425,19,1.5611,higher value -> lower risk,MAXDRNKS: Most drinks on single occasion past 30 d
+SMOKDAY2,0.0354,20,1.2998,higher value -> lower risk,SMOKDAY2: Frequency of Days Now Smoking
+CHCKDNY2,0.0351,21,1.2877,higher value -> higher risk,CHCKDNY2: Ever told you have kidney disease?
+CHCCOPD3,0.035,22,1.2858,higher value -> higher risk,CHCCOPD3: Ever told you had C.O.P.D. emphysema or 
+CHECKUP1,0.0333,23,1.2228,higher value -> lower risk,CHECKUP1: Length of time since last routine checku
+strength_times_per_month,0.0323,24,1.1871,higher value -> higher risk,strength_times_per_month
+bmi,0.0312,25,1.1443,higher value -> lower risk,bmi: Computed body mass index
+DEAF,0.0273,26,1.0029,higher value -> higher risk,DEAF: Are you deaf or do you have serious diff
+alcohol_days_per_month,0.0264,27,0.9683,higher value -> lower risk,alcohol_days_per_month: Days in past 30 had alcoholic beverage
+RENTHOM1,0.0257,28,0.9437,categorical,RENTHOM1: Own or Rent Home
+MEDCOST1,0.0254,29,0.9332,higher value -> higher risk,MEDCOST1: Could Not Afford To See Doctor
+CHCOCNC1,0.0248,30,0.9093,higher value -> higher risk,CHCOCNC1: (Ever told) (you had)  melanoma or any o
+MARITAL,0.0238,31,0.8753,categorical,MARITAL: Marital Status
+gender,0.0231,32,0.8475,higher value -> higher risk,gender: Sex of Respondent
+AVEDRNK3,0.0216,33,0.7939,higher value -> lower risk,AVEDRNK3: Avg alcoholic drinks per day in past 30
+PNEUVAC4,0.0161,34,0.5906,higher value -> higher risk,PNEUVAC4: Pneumonia shot ever
+VETERAN3,0.0126,35,0.4624,higher value -> higher risk,VETERAN3: Are You A Veteran
+COVIDPO1,0.0104,36,0.3833,higher value -> lower risk,COVIDPO1: Have you ever tested positive for COVID-
+FLUSHOT7,0.0089,37,0.3259,higher value -> lower risk,FLUSHOT7: Adult flu shot/spray past 12 mos
+SEATBELT,0.0068,38,0.249,higher value -> higher risk,SEATBELT: How often use seatbelts in car?
+HIVTST7,0.0061,39,0.2237,higher value -> higher risk,HIVTST7: Ever tested H.I.V.
+COVIDACT,0.005,40,0.1831,higher value -> lower risk,COVIDACT: Do long-term symptoms reduce ability to 
+CHILDREN,0.0046,41,0.1674,higher value -> lower risk,CHILDREN: Number of Children in Household
+ASTHNOW,0.0044,42,0.1622,higher value -> higher risk,ASTHNOW: Still Have Asthma
+ECIGNOW2,0.0037,43,0.136,categorical,"ECIGNOW2: Do you now use e-cigarettes, or vaping p"
+DRNK3GE5,0.0023,44,0.0857,higher value -> lower risk,DRNK3GE5: Binge Drinking
+EXERANY2,0.0014,45,0.052,higher value -> lower risk,EXERANY2: Exercise in Past 30 Days
+COVIDSM1,0.0013,46,0.0486,higher value -> higher risk,COVIDSM1: Do you currently have Covid-19 symptoms?
+EXRACT12,0.0013,47,0.047,categorical,EXRACT12: Type of Physical Activity
+DRNKDRI2,0.0004,48,0.0155,higher value -> higher risk,DRNKDRI2: Did you drive after having too much to d
+PREGNANT,0.0001,49,0.0021,higher value -> higher risk,PREGNANT: Pregnancy Status
+USENOW3,0.0,50,0.0,mixed,USENOW3: Use of Smokeless Tobacco Products
+CHCSCNC1,0.0,51,0.0,mixed,CHCSCNC1: (Ever told) (you had) skin cancer that i

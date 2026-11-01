@@ -1,0 +1,134 @@
+column,feature,coef,odds_ratio,scale
+bin__CVDINFR4,CVDINFR4,1.0236,2.7831,yes vs no / this category
+num__age,age,0.6402,1.8968,per 1 SD
+bin__missingindicator_CVDINFR4,CVDINFR4,0.5952,1.8134,missing vs answered
+bin__hypertension,hypertension,0.5623,1.7547,yes vs no / this category
+bin__BLIND,BLIND,0.5282,1.696,yes vs no / this category
+bin__CVDCRHD4,CVDCRHD4,0.4243,1.5285,yes vs no / this category
+bin__missingindicator_CVDCRHD4,CVDCRHD4,0.3602,1.4336,missing vs answered
+bin__CHCKDNY2,CHCKDNY2,0.3211,1.3786,yes vs no / this category
+nom__PERSDOC3_3.0,PERSDOC3,-0.2819,0.7544,yes vs no / this category
+bin__ADDEPEV3,ADDEPEV3,0.2509,1.2852,yes vs no / this category
+bin__EXERANY2,EXERANY2,-0.2436,0.7838,yes vs no / this category
+nom__PRIMINS1_1.0,PRIMINS1,-0.2401,0.7865,yes vs no / this category
+bin__ASTHMA3,ASTHMA3,0.2399,1.2712,yes vs no / this category
+bin__MEDCOST1,MEDCOST1,0.2364,1.2667,yes vs no / this category
+bin__TOLDHI3,TOLDHI3,0.1766,1.1932,yes vs no / this category
+bin__HAVARTH4,HAVARTH4,0.1645,1.1788,yes vs no / this category
+nom__RENTHOM1_1.0,RENTHOM1,-0.1424,0.8673,yes vs no / this category
+bin__CHCCOPD3,CHCCOPD3,0.1385,1.1485,yes vs no / this category
+bin__DEAF,DEAF,0.1369,1.1468,yes vs no / this category
+num__INCOME3,INCOME3,-0.1214,0.8857,per 1 SD
+nom__MARITAL_4.0,MARITAL,0.1149,1.1217,yes vs no / this category
+nom__PERSDOC3_2.0,PERSDOC3,0.1116,1.1181,yes vs no / this category
+bin__CHCOCNC1,CHCOCNC1,0.1112,1.1176,yes vs no / this category
+bin__SMOKE100,SMOKE100,0.1107,1.1171,yes vs no / this category
+num__diabetes_status,diabetes_status,0.1107,1.1171,per 1 SD
+nom__PRIMINS1_2.0,PRIMINS1,-0.1081,0.8975,yes vs no / this category
+num__MENTHLTH,MENTHLTH,0.1039,1.1095,per 1 SD
+bin__FLUSHOT7,FLUSHOT7,-0.103,0.9021,yes vs no / this category
+bin__COVIDPO1,COVIDPO1,-0.0952,0.9092,yes vs no / this category
+bin__gender,gender,0.0948,1.0995,yes vs no / this category
+bin__VETERAN3,VETERAN3,0.0824,1.0859,yes vs no / this category
+num__SMOKDAY2,SMOKDAY2,-0.0766,0.9262,per 1 SD
+nom__MARITAL_1.0,MARITAL,-0.0766,0.9263,yes vs no / this category
+bin__HIVTST7,HIVTST7,0.0745,1.0773,yes vs no / this category
+num__CHECKUP1,CHECKUP1,-0.0743,0.9284,per 1 SD
+nom__MARITAL_5.0,MARITAL,-0.0732,0.9294,yes vs no / this category
+nom__PRIMINS1_5.0,PRIMINS1,0.0726,1.0753,yes vs no / this category
+num__missingindicator_SEATBELT,SEATBELT,0.0679,1.0703,missing vs answered
+num__CHOLCHK3,CHOLCHK3,-0.0642,0.9378,per 1 SD
+num__AVEDRNK3,AVEDRNK3,-0.0597,0.942,per 1 SD
+num__missingindicator_alcohol_days_per_month,alcohol_days_per_month,-0.0592,0.9425,missing vs answered
+nom__ECIGNOW2_1.0,ECIGNOW2,-0.0584,0.9433,yes vs no / this category
+num__COVIDACT,COVIDACT,-0.0565,0.9451,per 1 SD
+num__bmi,bmi,-0.0546,0.9469,per 1 SD
+num__EDUCA,EDUCA,-0.0514,0.9499,per 1 SD
+num__alcohol_days_per_month,alcohol_days_per_month,-0.0489,0.9523,per 1 SD
+num__missingindicator_bmi,bmi,-0.0489,0.9523,missing vs answered
+num__missingindicator_MENTHLTH,MENTHLTH,0.0474,1.0486,missing vs answered
+nom__EXRACT12_2.0,EXRACT12,-0.0472,0.9539,yes vs no / this category
+nom__MARITAL_2.0,MARITAL,0.047,1.0481,yes vs no / this category
+bin__missingindicator_PNEUVAC4,PNEUVAC4,-0.0428,0.9581,missing vs answered
+num__missingindicator_exercise_min_per_month,exercise_min_per_month,0.0417,1.0426,missing vs answered
+num__strength_times_per_month,strength_times_per_month,0.034,1.0346,per 1 SD
+bin__PNEUVAC4,PNEUVAC4,0.0328,1.0334,yes vs no / this category
+nom__PERSDOC3_1.0,PERSDOC3,-0.0327,0.9678,yes vs no / this category
+num__DRNK3GE5,DRNK3GE5,0.0326,1.0332,per 1 SD
+num__SEATBELT,SEATBELT,0.0306,1.0311,per 1 SD
+bin__missingindicator_TOLDHI3,TOLDHI3,0.0296,1.03,missing vs answered
+num__missingindicator_INCOME3,INCOME3,0.0267,1.0271,missing vs answered
+num__MAXDRNKS,MAXDRNKS,-0.0238,0.9765,per 1 SD
+num__DRNKDRI2,DRNKDRI2,0.0233,1.0236,per 1 SD
+num__exercise_min_per_month,exercise_min_per_month,0.023,1.0233,per 1 SD
+num__missingindicator_EDUCA,EDUCA,-0.0214,0.9788,missing vs answered
+num__missingindicator_CHILDREN,CHILDREN,-0.0175,0.9827,missing vs answered
+num__missingindicator_strength_times_per_month,strength_times_per_month,0.0162,1.0163,missing vs answered
+num__missingindicator_SMOKDAY2,SMOKDAY2,0.0153,1.0155,missing vs answered
+num__missingindicator_AVEDRNK3,AVEDRNK3,0.0151,1.0152,missing vs answered
+nom__MARITAL_6.0,MARITAL,-0.015,0.9852,yes vs no / this category
+num__USENOW3,USENOW3,-0.0115,0.9886,per 1 SD
+num__missingindicator_CHOLCHK3,CHOLCHK3,0.0112,1.0113,missing vs answered
+num__missingindicator_diabetes_status,diabetes_status,0.0098,1.0098,missing vs answered
+nom__EXRACT12_3.0,EXRACT12,-0.007,0.993,yes vs no / this category
+bin__missingindicator_CHCCOPD3,CHCCOPD3,0.0067,1.0067,missing vs answered
+nom__PRIMINS1_7.0,PRIMINS1,-0.0065,0.9936,yes vs no / this category
+nom__EXRACT12_11.0,EXRACT12,-0.0053,0.9947,yes vs no / this category
+bin__ASTHNOW,ASTHNOW,0.0032,1.0032,yes vs no / this category
+num__missingindicator_DRNK3GE5,DRNK3GE5,-0.0025,0.9975,missing vs answered
+num__missingindicator_CHECKUP1,CHECKUP1,0.0022,1.0022,missing vs answered
+num__CHILDREN,CHILDREN,0.0021,1.0021,per 1 SD
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

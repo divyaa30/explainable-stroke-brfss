@@ -21,6 +21,25 @@ Test partition: 63,523 respondents, 2,703 with stroke history.
 
 The model classifies *prevalent* stroke from cross-sectional survey data. It does **not** predict future stroke and is not intended for clinical use.
 
+## Results in this repository
+
+`results/` holds the final output tables and figures from the run reported in the chapter, so every number in the chapter can be traced without re-running the pipeline:
+
+| File | Contents |
+|---|---|
+| `cleaning_flow_v2.csv`, `logical_fill_checks_v2.csv`, `missingness_core_vs_module.csv`, `variable_dictionary.csv` | Sample derivation, verified skip-logic fills, core vs module missingness, item dictionary |
+| `feature_config_v2.json`, `v2_best_params.json`, `v2_tuning_results.csv`, `v2_validation_auc.csv` | Feature sets and types, tuned hyperparameters, CV and validation AUC |
+| `v2_test_results.csv`, `v2_test_table_youden.csv`, `v2_test_table_sens80.csv` | Test metrics with 95% CIs at both thresholds |
+| `v2_test_calibration.csv`, `v2_thresholds.json` | Brier scores, calibration slopes, thresholds |
+| `v2_test_delong.csv`, `v2_test_sensitivity.csv` | Paired DeLong tests (Holm-adjusted); all-respondent and survey-weighted AUC |
+| `v2_selection_*.csv`, `v2_selected_features.json`, `v2_imputation_error.csv`, `v2_factorial_*.csv` | Feature-selection votes and stability, imputation error, 2×2 ablation |
+| `v2_robustness.csv` | Robustness checks R1–R5 |
+| `v2_shap_*.csv`, `v2_lr_odds_ratios.csv`, `v2_lime_fidelity.csv` | SHAP importance and stability, odds ratios, LIME fidelity |
+| `v2_fairness.csv`, `v2_fairness_gaps.csv` | Subgroup performance |
+| `figures/` | ROC/PR, calibration, confusion matrices, feature votes, SHAP, subgroup figures |
+
+Person-level files (test-set predictions and per-person LIME explanations) are not included.
+
 ## Notebooks
 
 Run them in order. Each one reads the outputs of the previous ones.

@@ -1,0 +1,9 @@
+model,imputation,features,n_features,val_auc,val_ap
+LogisticRegression,simple,all,51,0.817,0.1717
+LightGBM,simple,all,51,0.8209,0.1795
+LogisticRegression,simple,selected,18,0.8105,0.1642
+LightGBM,simple,selected,18,0.8156,0.1717
+LogisticRegression,missforest,all,51,0.8172,0.1709
+LightGBM,missforest,all,51,0.8206,0.1784
+LogisticRegression,missforest,selected,18,0.8109,0.1626
+LightGBM,missforest,selected,18,0.8155,0.1694
