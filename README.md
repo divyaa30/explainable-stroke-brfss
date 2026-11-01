@@ -64,3 +64,7 @@ Python 3 (Google Colab), scikit-learn 1.6.1, XGBoost 3.4.1, LightGBM 4.6.0, SHAP
 ## Data
 
 BRFSS data are public and are not included in this repository. Please cite the CDC: Centers for Disease Control and Prevention, *Behavioral Risk Factor Surveillance System Survey Data*, 2023.
+
+## License
+
+Code released under the [MIT License](LICENSE).
